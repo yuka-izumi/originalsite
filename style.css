@@ -1,0 +1,146 @@
+
+body{
+    margin: 0 auto;
+    font-family: fantasy;
+}
+
+.space{
+    height: 22px;
+}
+
+.big-space{
+    height: 65px;
+}
+
+.navbar {
+    position: fixed; /* ヘッダーバーを固定 */
+  top: 0; /* 上から0の位置に固定 */
+  left: 0; /* 左から0の位置に固定 */
+  display: none; /* ヘッダーバーを非表示 */
+  }
+
+.nav-link{
+    font-size: 20px;
+    font-family: Osaka-Mono;
+}
+/* .bg-item{                                              
+    background-image: url("./image/IMG_4831.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+} */
+
+/*文字は子要素へ。position:;relativeで位置の指定ができる*/
+.text{
+    color: aliceblue;
+    position: relative;
+    top: 250px;                     
+    text-align: center;   
+}
+
+.us{
+    text-align: center;
+    padding-top: 145px;
+    padding-bottom: 120px;
+}
+
+#main{
+    font-family: 游ゴシック体;
+}
+
+
+.us-title{
+    font-size: 25px;
+    font-family: Osaka-Mono;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.us-setumei{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: inherit;
+}
+
+.right-text{
+    font-size: 20px;
+}
+
+.left-image{
+    display: flex;   
+    margin: 0 auto;
+}
+
+#photo{
+    width: 50%;
+    padding-left: 10%;
+}
+.image1{
+    width: 100%;
+} 
+
+.sub{
+    width:50%;
+    padding-left: 2%;
+    padding-right: 10%;
+    text-align: left;
+    margin: auto;
+}
+
+.right-image{
+    display: flex;   
+    margin: 0 auto;
+}
+
+.right-text{
+    margin-bottom: 3rem;
+
+}
+
+.subi{
+    width:50%;
+    padding-left: 10%;
+    /* text-align: right; */
+    margin:auto;
+}
+
+.okinawa2{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 10%;
+}
+
+.image2{
+    width: 100%;
+}
+
+.bgimage{
+    background-image: url(./image/bee_mono.jpg);
+    background-repeat: repeat-x;
+    height: 300px;
+    background-size: auto 100%;
+    margin: 80px 0;
+}
+
+
+.bgimage2{
+    background-image: url(./image/mono.jpg);
+    background-repeat: repeat-x;
+    height: 300px;
+    background-size: auto 100%;
+    margin: 80px 0;
+}
+
+footer{
+    height: 800px;
+    background-color: rgb(51, 48, 48);
+}
+
+.adress{
+    color: aliceblue;
+    text-align: center;
+}
+
+.f_image{
+    width: 35%;
+}
